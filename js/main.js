@@ -32,4 +32,5 @@ hamburger.addEventListener("click", () => {
     tl.reverse(1);
     bolian = true;
   }
+  document.querySelector(".hamburger_icon_wrap i").classList.toggle("fa-times");
 });

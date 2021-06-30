@@ -35,6 +35,6 @@ hamburger.addEventListener("click", () => {
   document.querySelector(".hamburger_icon_wrap i").classList.toggle("fa-times");
 });
 
-document.querySelector("body").addEventListener("click", function(){
-  document.documentElement.requestFullscreen();
-});
+
+
+
